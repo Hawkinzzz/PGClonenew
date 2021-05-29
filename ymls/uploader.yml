@@ -16,7 +16,7 @@
         intport: '8080'
         extport: '7777'
         image: 'hawkinzzz/uploader:latest'
-
+        ## Remove the docker you are not allowed to use them !!!
     - name: 'Remove uploader Container'
       docker_container:
         name: 'uploader'
